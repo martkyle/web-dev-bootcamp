@@ -9,30 +9,29 @@
 
 <form>
 
-	<p>
+	<div>
 		<label for="first-name">First Name: </label>
 		<input id="first-name" type="text" name="firstName" placeholder="John" required>
 		<label for="last-name">Last Name: </label>
 		<input id="last-name" type="text" name="lastName" placeholder="Smith" required>
-	</p>
-	<p>
+	</div>
+	<div>
 		<label for="male">Male</label>
 		<input id="male" type="radio" name="gender" value="male" required>
 		<label for="female">Female</label>
 		<input id="female" type="radio" name="gender" value="female" required>
 		<label for="other">Other</label>
 		<input id="other" type="radio" name="gender" value="other" required>
-	</p>
-	<p>
+	</div>
+	<div>
 		<label for="email">Email: </label>
 		<input id="email" type="email" name="emailAddress" placeholder="your email" required>
 		<label for="password">Password: </label>
-		<input id="password" type="password" name="password" placeholder="" minlength="5"
-       maxlength="10" size="10"
-       title="Password must be between 5 - 10 digits" required>
-	</p>
-	<p>
-		<label for="birthday">Birthday: </label>
+		<input id="password" type="password" name="password" placeholder="" pattern=".{5,10}" minlength="5"
+       maxlength="10" size="10" title="Password must be between 5 - 10 characters" required>
+	</div>
+	<div>
+		<label for="birthday">Birthday: 
 		<select id="birthday" name="month" >
 			<option selected>Month</option>
 			<option>January</option>
@@ -67,15 +66,16 @@
 			<option>2019</option>
 			<option>2020</option>
 		</select>
-	</p>
-	<p>
+		</label>
+	</div>
+	<div>
 		<label for="acceptTerms">I agree to the terms and conditions: </label>
 		<input id="acceptTerms" type="checkbox" name="" required>
 		
-	</p>
-	<p>
+	</div>
+	<div>
 		<input type="submit" name="">
-	</p>
+	</div>
 
 </form>
 
