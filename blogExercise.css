@@ -1,2 +1,36 @@
 /*font-family: 'Merriweather Sans', sans-serif;*/
 
+body {
+	border: 20px solid #bdc3c7;
+	font-family: 'Merriweather Sans', sans-serif;
+	padding: 20px;
+	max-width: 700px;
+	margin: 20px auto;
+	width: 80%;
+}
+
+h2 {
+	color: #2c3e50
+	font-size: 2.0rem;
+}
+
+hr {
+	height: 1px;
+	background-color: #bdc3c7;
+	border: 0;
+	color: #bdc3c7;
+	margin: 1.5rem;
+	width: 90%;
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.date {
+	color: #3498db;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+
