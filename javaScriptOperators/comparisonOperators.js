@@ -12,9 +12,11 @@ if(age === 21) {
 }
 
 //If age is odd - print "Your age is odd!"
-if(age < 21) {
-	console.log("Happy 21st birthday!!");
+if(age % 2 !== 0) {
+	console.log("Your age is odd...");
 }
 
 //BONUS - If age is perfect square - print "Perfect Square!!!"
-if(age )
+if(age % Math.sqrt(age) === 0) {
+	console.log("Perfect Square!!!");
+}
